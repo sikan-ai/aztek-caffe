@@ -48,9 +48,6 @@ jobs:
           VITE_FRONTEND_FORGE_API_URL: ""
           VITE_OAUTH_PORTAL_URL: ""
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
